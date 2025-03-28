@@ -73,7 +73,7 @@ body {
 #collection {
     display : flex;
     flex-wrap : wrap;
-    gap : 100px;
+    justify-content: space-between;
 }
 
 .prod {
@@ -95,10 +95,12 @@ body {
     flex-direction : column;
     align-items : center;
     justify-content : center;
+    
 }
 
 .img-id {
     max-height: fit-content;
+    
 }
 
 .desc-name {
