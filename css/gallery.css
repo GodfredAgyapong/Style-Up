@@ -1,0 +1,102 @@
+body {
+    max-width : 1400px;
+    box-sizing: border-box;
+    margin : 0px 80px 0px 80px;
+    font-family: "Poppins";
+}
+
+#bgimg {
+    background-image : url('../Images/stylehero2.png');
+    background-repeat: no-repeat;
+    background-size : 100%;
+}
+
+#navbar {
+    display : flex;
+    padding-top : 15px;
+
+}
+
+#cont-nav {
+    margin : 0px 0px 0px auto;
+}
+
+#navbar a {
+    text-decoration: none;
+    color : #142433;
+    padding-left : 30px;
+    margin-right : 20px;
+}
+
+#navbar a:hover {
+    color : #516373;
+}
+
+#hero {
+    position: relative;
+    height: 80vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding-top: 60px;
+}
+
+#heading-1 {
+    color : #142433;
+    font-size : 35px;
+    margin-top : 150px;
+}
+
+#heading-p {
+    color : #516373;
+    font-size : 17px;
+}
+
+#btn {
+    color : white;
+    background-color : #101C26;
+    padding : 11px 20px 13px 20px;
+    border : none;
+    border-radius : 20px;
+}
+
+#btn:hover {
+    cursor : pointer;
+}
+
+#footer {
+    background-color: #DCE8F2;
+    margin-top : 80px;
+}
+
+#foot-mesg {
+    display : flex;
+    justify-content: center;
+    padding-top : 60px;
+    
+}
+
+.foot-content {
+    margin-right : -120px;
+}
+
+.foot-content p {
+    max-width : 70%;
+    word-wrap : wrap;
+}
+
+#foot-mesg h3 {
+    color : #142433;
+}
+
+#foot-mesg p {
+    color : #516373;
+}
+
+#copy {
+    text-align : center;
+    color : #142433;
+    padding-bottom : 60px;
+    padding-top : 20px;
+}
