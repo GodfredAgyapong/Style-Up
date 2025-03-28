@@ -1,0 +1,185 @@
+<!DOCTYPE HTML>
+<html>
+    <head>
+        <title>Style Up - audio</title>
+        <meta charset = "UTF-8">
+        <meta name = "viewport" content = "width = device-width , initial-scale = 1.0">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Great+Vibes&family=Happy+Monkey&family=Luckiest+Guy&family=Orbitron:wght@400..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Urbanist:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"/>
+        <style>
+            body {
+    max-width : 1400px;
+    box-sizing: border-box;
+    margin : 0px 80px 0px 80px;
+    font-family: "Poppins";
+}
+
+#bgimg {
+    background-image : url('../Images/stylehero3.png');
+    background-repeat: no-repeat;
+    background-size : 100%;
+}
+
+#navbar {
+    display : flex;
+    padding-top : 15px;
+
+}
+
+#cont-nav {
+    margin : 0px 0px 0px auto;
+}
+
+#navbar a {
+    text-decoration: none;
+    color : #142433;
+    padding-left : 30px;
+    margin-right : 20px;
+}
+
+#navbar a:hover {
+    color : #516373;
+}
+
+#hero {
+    position: relative;
+    height: 80vh;
+    display: flex;
+    align-items: end;
+    justify-content: center;
+    text-align: center;
+    margin-top: 60px;
+    padding-top: 60px;
+    padding-bottom : 40px;
+}
+
+#heading-1 {
+    margin-bottom : -15px;
+    color : #142433;
+    font-size : 35px;
+    
+}
+
+#heading-p {
+    color : #516373;
+    font-size : 17px;
+}
+
+#secs {
+    padding-top : 20px;
+    padding-bottom : 20px;
+}
+
+.heading-2 {
+    text-align : center;
+    margin-top : 50px;
+    margin-bottom : 20px;
+    color : #142433;
+}
+
+#aud {
+    display : flex;
+    flex-direction : column;
+    align-items : center;
+}
+
+.audio-txt {
+    font-style: italic;
+    color : #516373;
+}
+
+#footer {
+    background-color: #DCE8F2;
+    margin-top : 80px;
+}
+
+#foot-mesg {
+    display : flex;
+    justify-content: center;
+    padding-top : 60px;
+    
+}
+
+.foot-content {
+    margin-right : -120px;
+}
+
+.foot-content p {
+    max-width : 70%;
+    word-wrap : wrap;
+}
+
+#foot-mesg h3 {
+    color : #142433;
+}
+
+#foot-mesg p {
+    color : #516373;
+}
+
+#copy {
+    text-align : center;
+    color : #142433;
+    padding-bottom : 60px;
+    padding-top : 20px;
+}
+        </style>
+    </head>
+    <body>
+        <header id = "bgimg">
+        <nav id = "navbar">
+            <div id = "logo"><a href = "../Style-Up/index.html"><strong style = "color : #101C26;">StyleUp</strong></a></div>
+            <div id = "cont-nav">
+                <a href = "../index.html">Home</a>
+                <a href = "../index.html" target = "_blank">Gallery</a>
+                <a href = "../index.html" target = "_blank">Audio</a>
+                <a href = "../index.html" target = "_blank">Video</a>
+                <a href = "../index.html" target = "_blank">About</a>
+            </div>
+        </nav>
+        <div id = "hero">
+            <div id = "hero-c">
+                <h1 id = "heading-1">Audio</h1>
+                <p id = "heading-p">Style Up Soundscapes</p>
+            </div>
+        </div>
+    </header>
+    <section>
+        <div id = "aud">
+            <h2 class = "heading-2">Behind The Fashion</h2>
+            <img src = "../Images/style15.png" class = "audio-img">
+            <p class = "audio-txt">Style Up Designer Interview</p>
+            <audio controls>
+                <source src = "../Audios/An interview with a vogue featured Fashion Designer - Whitecliffe.mp4">
+            </audio>
+            <h2 class = "heading-2">Runway Rythms</h2>
+            <img src = "../Images/style16.png" class = "audio-img">
+            <p class = "audio-txt">Fashion Designer Interview</p>
+            <audio controls>
+                <source src = "..//Audios/Interview with Fashion Designer Alexis Barbara Isaias_Neiman Marcus.mp4">
+            </audio>
+        </div>
+    </section>
+    <footer id = "footer">
+        <div id = "foot-mesg">
+        <div class = "foot-content">
+            <h3>Style Up</h3>
+            <p>We sell all kinds of men's
+                clothing. Hit us up anything, any day, anywhere.
+            </p>
+        </div>
+        <div id = "socials">
+            <h3>Connect</h3>
+            <p><i class="fa-brands fa-facebook"></i>&nbsp; Facebook</p>
+            <p><i class="fa-brands fa-whatsapp"></i>&nbsp; Whatsapp</p>
+            <p><i class="fa-brands fa-instagram"></i>&nbsp; Instagram</p>
+        </div>
+    </div>
+        <div id = "copy">
+            <p id = "copy1">Coypyright &copy 2025 Style-Up</p>
+        </div>
+</footer>
+</body>
+</html>
