@@ -1,0 +1,153 @@
+body {
+    max-width : 1400px;
+    box-sizing: border-box;
+    margin : 0px 80px 0px 80px;
+    font-family: "Poppins";
+}
+
+#bgimg {
+    background-image : url('../Images/stylehero5.png');
+    background-repeat: no-repeat;
+    background-size : 100%;
+}
+
+#navbar {
+    display : flex;
+    padding-top : 15px;
+
+}
+
+#cont-nav {
+    margin : 0px 0px 0px auto;
+}
+
+#navbar a {
+    text-decoration: none;
+    color : #142433;
+    padding-left : 30px;
+    margin-right : 20px;
+}
+
+#navbar a:hover {
+    color : #516373;
+}
+
+#hero {
+    position: relative;
+    height: 80vh;
+    display: flex;
+    align-items: end;
+    justify-content: center;
+    text-align: center;
+    margin-top: 80px;
+    padding-bottom : 40px;
+}
+
+#heading-1 {
+    margin-bottom : -15px;
+    color : #142433;
+    font-size : 35px;
+    
+}
+
+#heading-p {
+    color : #516373;
+    font-size : 17px;
+}
+
+#about {
+    display : flex;
+    gap : 60px;
+    margin-top : 120px;
+    margin-left : 25%;
+}
+
+#about-desc h2 {
+    color : #142433;
+}
+
+#about-desc p {
+    max-width : 60%;
+    word-wrap : wrap;
+    color : #516373;
+}
+
+#misc {
+    display : flex;
+    flex-direction : column;
+    justify-content: center;
+    align-items : center;
+    padding-top : 100px;
+}
+
+.heading-2 {
+    text-align : center;
+    margin : 50px 0px 25px 0px;
+}
+
+#misc p {
+    max-width : 60%;
+    word-wrap : wrap;
+    margin-top : -10px;
+    color : #516373;
+}
+
+#serv {
+    display : flex;
+    justify-content: space-between;
+    gap : 30px;
+    
+}
+
+.serv-1 {
+    background-color: #F6F7FB;
+    padding-top : 20px;
+    padding-left : 10px;
+}
+
+.serv-tag {
+    font-size : 20px;
+    font-weight : bold;
+}
+
+.serv-desc {
+    word-wrap: wrap;
+    max-width : 95%;
+    color : #516373;
+}
+
+#footer {
+    background-color: #DCE8F2;
+    margin-top : 80px;
+}
+
+#foot-mesg {
+    display : flex;
+    justify-content: center;
+    padding-top : 60px;
+    
+}
+
+.foot-content {
+    margin-right : -120px;
+}
+
+.foot-content p {
+    max-width : 70%;
+    word-wrap : wrap;
+}
+
+#foot-mesg h3 {
+    color : #142433;
+}
+
+#foot-mesg p {
+    color : #516373;
+}
+
+#copy {
+    text-align : center;
+    color : #142433;
+    padding-bottom : 60px;
+    padding-top : 20px;
+}
